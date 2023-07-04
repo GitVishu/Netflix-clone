@@ -151,12 +151,15 @@ form{
     font-size: 22px;
 }
 .second-slide{
+    padding: 50px 12%;
+    font-size: 22px;
     display: flex;
     height: 75vh;
     width: 100%;
     align-items: center;
     /* flex-wrap: wrap; */
     padding: 50px 0;
+    margin: 25px 0px;
 }
 .ss-content{
     flex-basis: 50%;
@@ -183,6 +186,8 @@ form{
 /* ---------Third Slide-------- */
 
 .third-slide{
+    padding: 50px 12%;
+    font-size: 22px;
     display: flex;
     height: 75vh;
     width: 100%;
@@ -191,6 +196,7 @@ form{
     flex-direction: row-reverse;
     padding: 50px 0;
     /* border-top: 2px solid #303030; */
+    margin: 25px 0px;
 }
 .ts-content{
     flex-basis: 50%;
@@ -217,12 +223,15 @@ form{
 /* -------Forth Slide------ */
 
 .forth-slide{
+    padding: 50px 12%;
+    font-size: 22px;
     display: flex;
     height: 75vh;
     width: 100%;
     align-items: center;
     /* flex-wrap: wrap; */
     padding: 50px 0;
+    margin: 25px 0px;
 }
 .fs-content{
     flex-basis: 50%;
@@ -249,6 +258,8 @@ form{
 /* -------Fifth Slide------ */
 
 .fifth-slide{
+    padding: 50px 12%;
+    font-size: 22px;
     display: flex;
     height: 75vh;
     width: 100%;
@@ -256,6 +267,7 @@ form{
     /* flex-wrap: wrap; */
     flex-direction: row-reverse;
     padding: 50px 0;
+    margin: 25px 0px;
 }
 .fivs-content{
     flex-basis: 50%;
@@ -283,6 +295,7 @@ form{
     padding: 10px 12%;
     text-align: center;
     font-size: 20px;
+    margin: 25px 0px;
 }
 .faq h2{
     font-weight: 500;
@@ -298,6 +311,7 @@ form{
     padding: 5px;
 }
 .accordion li label{
+    text-align: left;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -326,27 +340,30 @@ input[type="radio"]{
     overflow: hidden;
 }
 @media (max-width:500px) {
+    *{
+        text-align: center justify;
+    }
     .second-slide{
         flex-direction: column;
+
     }
     .third-slide{
         flex-direction: column;
+        
     }
     .forth-slide{
         flex-direction: column;
+        
     }
     .fifth-slide{
         flex-direction: column;
-    }
-    .ts-img img{
-        height: 200px;
-        width: 350px;
-    }
-    .fivs-img img{
-        height: 200px;
-        width: 350px;
+       
     }
     .ss-img video{
+        height: 200px;
+        width: 350px;
+    }
+    .ts-img img{
         height: 200px;
         width: 350px;
     }
@@ -354,8 +371,15 @@ input[type="radio"]{
         height: 200px;
         width: 350px;
     }
+    .fivs-img img{
+        height: 200px;
+        width: 350px;
+    }
+
 }
+
 .foot{
+    margin: 25px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,7 +387,6 @@ input[type="radio"]{
     margin-bottom: 100px;
 }
 footer {
-    padding-left: 200px;
     padding-top: 50px;
     margin-bottom: 5px;
     color: #777;
@@ -371,6 +394,9 @@ footer {
 }
 footer a{
     color: #777;
+    display: inline-flex;
+    /* justify-content: center; */
+    align-items: center;
     
 }
 .footer-cls{

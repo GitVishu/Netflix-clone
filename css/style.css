@@ -346,6 +346,14 @@ input[type="radio"]{
         height: 200px;
         width: 350px;
     }
+    .ss-img video{
+        height: 200px;
+        width: 350px;
+    }
+    .fs-img video{
+        height: 200px;
+        width: 350px;
+    }
 }
 .foot{
     display: flex;
